@@ -31,6 +31,20 @@ email.addEventListener('input', function () {
 
 });
 
+//UC3 - Validate Mobile Number
+const phone = document.querySelector('#tel');
+const phoneError = document.querySelector('.phone-error');
+phone.addEventListener('input', function () {
+    let phoneRegex = RegExp('^[1-9]{2,}[ ][6-9]{1}[0-9]{9}$');
+    if (phoneRegex.test(phone.value)) {
+        phoneError.textContent = "";
+    }
+    else {
+        phoneError.textContent = "Phone Number is Incorrect";
+    }
+});
+
+
 function submitMsg() {
     alert("Form Submitted Successfully");
 }
