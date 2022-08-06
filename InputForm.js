@@ -45,6 +45,8 @@ phone.addEventListener('input', function () {
 });
 
 //UC4 - Validate Password - Min 8characte
+
+/*
 const password = document.querySelector('#pwd');
 const pwdError = document.querySelector('.pwd-error');
 password.addEventListener('input', function () {
@@ -56,6 +58,8 @@ password.addEventListener('input', function () {
         pwdError.textContent = "Password is Incorrect";
     }
 });
+
+*/
 
 //UC5 - Validate Password - Min 8 Character, atleast 1 Uppercase, 1 Numeric value and exact 1 special case
 const password = document.querySelector('#pwd');
