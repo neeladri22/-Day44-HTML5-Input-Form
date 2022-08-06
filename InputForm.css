@@ -46,5 +46,5 @@ error-output{
     color: red;
 }
 @media screen {
-    min-width: 320px;
+    min-width: 330px;
 }

@@ -1,4 +1,4 @@
-//UC1 - Validate First Name
+//UC1 - Validate the First Name
 
 const text = document.querySelector('#text');
 const texterror = document.querySelector('.text-error');
